@@ -1,0 +1,33 @@
+What is Containerization(Container)?
+-->Containerization is a light weight virtualization technologyb alternative to hypervisor virtualization.Any Application can be bundled in a container can run withhout any woriess about dependencies ,libraries and binaries.
+-->Because container creates the isolated environment with all the required dependencies,libraries and binaries to run your application without any issue.
+-->hence you can build the packages,ship the application to any environment and run  it.
+
+so containers are designed to run on physical servers,virtual machines and any cloud instances.
+
+
+
+Difference between containerization and virtualization
+-->Virtualization technology that allows us to have a multiple operating system to share a single hardware processor
+
+-->Containerization is an application-specific  virtualization ,because it provides an application with dedicated environmenst in the form of 
+containers to run on, which can be deployed and run anywhere without a dedicated virtau machine with operating system for each application.
+
+
+Also container was designed to solve modern problems and application management issues.so it's not a replacement for virtualization but its complementary to it.
+
+
+Advantages of conntainers:
+->containers are isolated doesn't require operating system and its shares a host kernel.
+so,containers run on the same server and use the same resources,they don not interact with each other because ikts islated .
+if one application crashes,other containers with the same application will keep running without any issues.
+
+->Its a portable and light weight operating system and it contains only the required binaries ,dependencies and libraries to run the application
+so it compatiblity dependencies kind of issues.
+
+->Faster and resources efficiency- iots very fast to boot ,because containers are light weighted and start in less thhan second since they do not  a require an operaating system boot
+
+->Resource efficency since containers do not a require a seperate operating system,they use less resource
+
+->improve scalablity- and lower costs.By allowing more containers in the environment without the need for more servers,containerization increases 
+scalablity anywhere form1-0 to 100 times of that of traditional environments.
