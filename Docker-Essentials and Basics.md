@@ -1,4 +1,4 @@
-docker cheat sheet 👉https://dockerlabs.collabnix.com/docker/cheatsheet/
+docker cheat sheet 👉https://dockerlabs.collabnix.com/docker/cheatsheet/           
 1)docker version  ->version of the docker    
 2)docker prune ->remove unused data      
 3)docker -- help     
