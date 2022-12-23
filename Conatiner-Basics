@@ -32,3 +32,28 @@ so it compatiblity dependencies kind of issues.
 
 ->improve scalablity- and lower costs.By allowing more containers in the environment without the need for more servers,containerization increases 
 scalablity anywhere form1-0 to 100 times of that of traditional environments.
+
+Introduction to docker:-What is docker on container?
+->docker is a opensource platform tool designed to manage the containers,which allows us to build the application in a container with required libraries,dependencies to run the 
+application,ship the container and run anywhere
+eX:Docker,Kubernetes,Openshift,Amazon EKS,Google container engine,Azure Kubernetes Service
+
+
+Introduction to docker-Why do we use Docker?
+1)portablity->An applications can be bundled in to a single unit and same unit can be deployed to various environments such as dev server,testing server,and production server without making anychanges to container.
+2)Light Weight-Docker Containers are pretty lightweight so,it provides a smaller footprint of the operating system via containers
+3)fast delivery and scalable->Since Dockeer containers are light weight ,so they can be deployes faster and that they are very easily scalable.
+4)Docker used for contious deployment and testing.so with the help of containers,it becomes easier for teams across different units such as developmenr,QA and operations to wrok seamlessly across applications
+5)Docker also provides you ,ability to run multiple isolated os an single hosts
+6)Resource Optimization:Docker enable you to utilize the maximum resources and reduce the resource wastages of your hardware
+
+
+
+Docker Architecture and components
+
+docker Client->Docker build,docker pull,docker run
+Docker host ->Docker daemon ->containers,images  
+Docker registry->docker hub
+
+Docker installation  -> https://docs.docker.com/desktop/install/windows-install/
+
